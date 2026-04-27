@@ -662,6 +662,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DIP_x12"
 			(pin_names
 				(offset 0)
@@ -2465,12 +2564,6 @@
 		(uuid "086e7d9f-2ed1-415d-8050-58b75b1ba97a")
 	)
 	(junction
-		(at 251.46 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "095f1fb6-40cc-454f-8bf5-0e5624fe620d")
-	)
-	(junction
 		(at 332.74 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2579,12 +2672,6 @@
 		(uuid "30b75c05-0eef-46e9-9b4f-cc738320c336")
 	)
 	(junction
-		(at 251.46 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30c00ef7-94f3-4048-a071-a6c4c0b05424")
-	)
-	(junction
 		(at 306.07 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2679,6 +2766,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "589af5c8-4a53-4bac-ab7c-d3a26dbd1fe4")
+	)
+	(junction
+		(at 251.46 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a362a80-cae8-4f85-b498-d4887925d11d")
 	)
 	(junction
 		(at 233.68 74.93)
@@ -2997,6 +3090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de1f6a05-ccd2-49f9-bd27-d6f7cfd1bd1b")
+	)
+	(junction
+		(at 251.46 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e42d34f1-0345-406f-bda5-955f75a74692")
 	)
 	(junction
 		(at 251.46 74.93)
@@ -4332,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 175.26) (xy 251.46 181.61)
+			(xy 251.46 175.26) (xy 251.46 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5402,7 +5501,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 186.69) (xy 251.46 187.96)
+			(xy 251.46 184.15) (xy 251.46 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7952,6 +8051,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44a9048b-d606-4022-a843-b210b54cb2ae")
+		(property "Reference" "H2"
+			(at 58.42 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.42 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 55.88 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SW_SPST_12")
 		(at 78.74 119.38 90)
 		(unit 5)
@@ -8325,6 +8500,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ce02a1-e2be-4ee3-b1cf-4d09558363a4")
+		(property "Reference" "H3"
+			(at 58.42 234.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.42 237.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 55.88 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 96.52 82.55 0)
 		(unit 1)
@@ -8629,6 +8880,82 @@
 				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
 					(reference "SW6")
 					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a565cce-6a8e-41c0-98b6-e24944a10822")
+		(property "Reference" "H1"
+			(at 58.42 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.42 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 55.88 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "H1")
+					(unit 1)
 				)
 			)
 		)
@@ -10525,7 +10852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DJ-FOOTPRINTS:DIP SPST 12 Position"
+		(property "Footprint" "DJ-FOOTPRINTS:RES-ADJ-TH_3P-L9.5-W9.5-P2.54-BR-BS"
 			(at 257.81 212.852 90)
 			(hide yes)
 			(show_name no)
@@ -10536,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ctscorp.com/Files/DataSheets/Switches/DIP-Switches/CTS-Switches-DIP-208-Series-Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 257.81 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -10547,7 +10874,7 @@
 				)
 			)
 		)
-		(property "Description" "Dip Switch SPST 12 Position Through Hole Slide (Standard) Actuator 50mA 24VDC"
+		(property "Description" ""
 			(at 257.81 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12924,6 +13251,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6e30868-6228-4621-9ad0-a32e9f202bbc")
+		(property "Reference" "H4"
+			(at 58.42 240.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.42 242.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 55.88 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DIP_x12")
 		(at 129.54 154.94 0)
 		(unit 1)
@@ -13071,7 +13474,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 251.46 184.15 0)
+		(at 251.46 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13081,7 +13484,7 @@
 		(dnp no)
 		(uuid "e9a8f911-fd06-4d42-903c-c739d1c90c55")
 		(property "Reference" "R36"
-			(at 251.46 184.15 90)
+			(at 251.46 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13091,7 +13494,7 @@
 			)
 		)
 		(property "Value" "51K2"
-			(at 255.27 184.15 0)
+			(at 255.27 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13101,7 +13504,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.46 184.15 0)
+			(at 251.46 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 184.15 0)
+			(at 251.46 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13123,7 +13526,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 251.46 184.15 0)
+			(at 251.46 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
