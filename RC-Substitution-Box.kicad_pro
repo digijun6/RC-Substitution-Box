@@ -665,7 +665,7 @@
         "uuid": "8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
       }
     ],
-    "used_designators": "R12,R22,R26-43,J3-8,J10-15,C25-26,H1-4,SW3,SW5-9",
+    "used_designators": "R12,R22,R26-50,J3-8,J10-15,C25-36,H1-4,SW1,SW3,SW5-9",
     "variants": []
   },
   "sheets": [
