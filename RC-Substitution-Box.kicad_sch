@@ -662,6 +662,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -756,6 +934,215 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Screw_Terminal_01x02_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J7"
+				(at -0.0001 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 2.54 -2.5399 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2317,6 +2704,16 @@
 		)
 		(uuid "63f66a97-64bf-4a05-aa61-de218818da4b")
 	)
+	(text "Potentiometer bypass\n"
+		(exclude_from_sim no)
+		(at 129.032 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e268aed-42b3-47d1-88fe-39f71f9b61f0")
+	)
 	(text "RC SUBSTITUION BOX PRECISION\n"
 		(exclude_from_sim no)
 		(at 65.024 34.29 0)
@@ -2592,6 +2989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "440c1175-8807-4a8f-b55c-77fa36db9ae2")
+	)
+	(junction
+		(at 142.24 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49399fcf-b796-4d67-91b4-855f7d979b83")
 	)
 	(junction
 		(at 80.01 107.95)
@@ -3024,6 +3427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beb00fc2-de76-419d-b26a-35d4f46039a8")
+	)
+	(junction
+		(at 142.24 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c63b00e0-2f71-41ba-bdc2-f4cfd1f12bc9")
 	)
 	(junction
 		(at 218.44 186.69)
@@ -3464,6 +3873,16 @@
 			(type default)
 		)
 		(uuid "1609c93d-5c8a-4b79-aa13-4b1130cb2073")
+	)
+	(wire
+		(pts
+			(xy 133.35 187.96) (xy 142.24 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165f42d6-7013-449b-a913-d3e9b3eec15e")
 	)
 	(wire
 		(pts
@@ -4084,6 +4503,16 @@
 			(type default)
 		)
 		(uuid "45c4aa21-0283-4cfe-a7ba-e780aa2164fa")
+	)
+	(wire
+		(pts
+			(xy 142.24 176.53) (xy 142.24 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47581b1f-e430-4528-8f68-a00ceb96bc7d")
 	)
 	(wire
 		(pts
@@ -4767,6 +5196,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 176.53) (xy 142.24 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f829a46-b75c-4ea8-a5a8-2bd1a09b8269")
+	)
+	(wire
+		(pts
 			(xy 274.32 195.58) (xy 274.32 196.85)
 		)
 		(stroke
@@ -5407,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 186.69) (xy 142.24 219.71)
+			(xy 142.24 186.69) (xy 142.24 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6157,6 +6596,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 187.96) (xy 142.24 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c987f703-3ac4-40d0-a65e-97dd1d76928e")
+	)
+	(wire
+		(pts
 			(xy 62.23 144.78) (xy 62.23 146.05)
 		)
 		(stroke
@@ -6257,16 +6706,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 142.24 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6c8e61-7075-4993-819c-7cc43938d291")
-	)
-	(wire
-		(pts
 			(xy 274.32 144.78) (xy 292.1 144.78)
 		)
 		(stroke
@@ -6304,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "cdc5d87b-e035-41fe-8fcd-92b92eacb2ac")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 142.24 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf71ad47-f14d-4628-b24b-d0e0d69ee845")
 	)
 	(wire
 		(pts
@@ -6534,6 +6983,16 @@
 			(type default)
 		)
 		(uuid "dc667b44-6dc2-4d2f-8681-9d2b1bc67201")
+	)
+	(wire
+		(pts
+			(xy 133.35 176.53) (xy 133.35 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc73186f-ee17-4a49-bab6-46615d7a8868")
 	)
 	(wire
 		(pts
@@ -7324,89 +7783,6 @@
 				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
 					(reference "SW5")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 204.47 226.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bc9cfe0-bd2f-450c-b8a6-2a8b93ba065e")
-		(property "Reference" "J6"
-			(at 204.4701 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 201.9301 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 204.47 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 204.47 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5172edc8-821c-4b58-a6ee-efa036811247")
-		)
-		(pin "2"
-			(uuid "689099b4-c06c-4312-8abc-4767a69a847d")
-		)
-		(instances
-			(project "RC-Substitution-Box"
-				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
-					(reference "J6")
-					(unit 1)
 				)
 			)
 		)
@@ -11680,89 +12056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 104.14 227.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c9eeda4-7aac-43bd-8576-696df8f4d9f0")
-		(property "Reference" "J5"
-			(at 106.68 227.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 101.6001 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 104.14 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "031e3bdd-3704-4559-be56-7c2a5ff14e3a")
-		)
-		(pin "2"
-			(uuid "c0fa6f81-6db2-46af-a841-442d4e798ed8")
-		)
-		(instances
-			(project "RC-Substitution-Box"
-				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 292.1 139.7 0)
 		(unit 1)
@@ -11915,6 +12208,90 @@
 			(project "RC-Substitution-Box"
 				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Screw_Terminal_01x02_1")
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 104.14 227.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655c19a5-5ec8-442d-9ed7-7fa63180474d")
+		(property "Reference" "J5"
+			(at 106.68 227.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 101.6001 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 104.14 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1eb5b84-aca0-42aa-b8c1-b084717525d5")
+		)
+		(pin "2"
+			(uuid "2c89b566-d04d-4798-8ae8-c4f3fcafe067")
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12620,6 +12997,89 @@
 				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
 					(reference "SW3")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 133.35 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7086d00f-e5e0-470d-8e69-15080cae017c")
+		(property "Reference" "JP1"
+			(at 135.89 181.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 135.89 184.1499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 133.35 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 138.43 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9508aee5-9301-4252-ad9a-395945073b80")
+		)
+		(pin "2"
+			(uuid "34fb1cf7-7ea9-42ac-bc63-50fd0684267b")
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "JP1")
+					(unit 1)
 				)
 			)
 		)
@@ -14693,7 +15153,7 @@
 		(dnp no)
 		(uuid "9b9b7670-0a67-4c39-91a1-3211a0efd71d")
 		(property "Reference" "R22"
-			(at 136.652 190.5 90)
+			(at 145.542 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14703,7 +15163,7 @@
 			)
 		)
 		(property "Value" "0-100"
-			(at 139.192 190.5 90)
+			(at 147.32 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15145,6 +15605,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Screw_Terminal_01x02_1")
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 316.23 227.33 270)
 		(unit 1)
@@ -15831,6 +16292,90 @@
 			(project "RC-Substitution-Box"
 				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Screw_Terminal_01x02_1")
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 204.47 226.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b51b05de-b4ad-4324-8d13-dbd785d81dba")
+		(property "Reference" "J6"
+			(at 207.01 226.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 201.9301 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 204.47 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33745cd5-62a6-4553-87df-90d9a588a326")
+		)
+		(pin "2"
+			(uuid "1d1758ef-acf3-442b-bf19-371d6171725b")
+		)
+		(instances
+			(project "RC-Substitution-Box"
+				(path "/8cfbd2ef-580b-4f9c-ab8f-262986ab6f88"
+					(reference "J6")
 					(unit 1)
 				)
 			)
