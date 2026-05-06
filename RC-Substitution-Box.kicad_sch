@@ -520,29 +520,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
+			(property "Reference" "R22"
+				(at -3.302 4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_Variable"
-				(at -2.54 -1.27 90)
+			(property "Value" "0-100"
+				(at -5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "DJ-FOOTPRINTS:RES-ADJ-TH_3P-L9.5-W9.5-P2.54-BR-BS"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -564,7 +562,7 @@
 					)
 				)
 			)
-			(property "Description" "Variable resistor"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -652,6 +650,25 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 0 180)
+					(length 1.27)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15210,6 +15227,9 @@
 		)
 		(pin "2"
 			(uuid "5e1ceb2b-16ce-4090-9a78-229adeb09913")
+		)
+		(pin "3"
+			(uuid "2412d677-da2b-4217-be15-f43dcddb432c")
 		)
 		(instances
 			(project "RC-Substitution-Box"
