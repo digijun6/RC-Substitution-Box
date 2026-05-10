@@ -122,9 +122,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber Output/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -25311,7 +25311,6 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25323,7 +25322,6 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25335,7 +25333,6 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25347,7 +25344,6 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25359,7 +25355,6 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25371,7 +25366,6 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -25383,6 +25377,7 @@
 		(effects
 			(font
 				(size 2 2)
+				(bold yes)
 			)
 			(justify bottom)
 		)
@@ -25394,6 +25389,7 @@
 		(effects
 			(font
 				(size 2 2)
+				(bold yes)
 			)
 			(justify bottom)
 		)
@@ -25405,7 +25401,8 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.25)
+				(thickness 0.4)
+				(bold yes)
 			)
 			(justify bottom)
 		)
