@@ -529,7 +529,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Gerber Output/",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
